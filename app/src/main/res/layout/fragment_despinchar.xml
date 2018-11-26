@@ -1,0 +1,407 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bicifondo"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="197dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/compresor"
+        card_view:ignore="ContentDescription" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            card_view:ignore="ObsoleteLayoutParam,ScrollViewSize">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                app:cardBackgroundColor="#fafafa"
+                card_view:cardCornerRadius="4dp"
+                card_view:cardElevation="5dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="79dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/monta1"
+                        card_view:ignore="ContentDescription" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="motallantas1"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="12dp"
+                            android:textStyle="italic"
+                            card_view:ignore="HardcodedText,SpUsage" />
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-condensed"
+                            android:text="Barrios cercanos:la mercedes,st barbara,la esmeralda "
+                            android:textColor="#34389e"
+                            card_view:ignore="HardcodedText,UnusedAttribute" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                app:cardBackgroundColor="#FAFAFA">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="147dp"
+                        android:layout_height="79dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/monta2"
+                        card_view:ignore="ContentDescription" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Montallantas 2"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="12dp"
+                            android:textStyle="italic"
+                            card_view:ignore="HardcodedText,SpUsage" />
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-condensed"
+                            android:text="Barrios cercanos: conjunto residencial guamuez, st monica, villaflor 1,st barbara"
+                            android:textColor="#34389e"
+                            card_view:ignore="HardcodedText,UnusedAttribute" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                app:cardBackgroundColor="#FAFAFA">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="148dp"
+                        android:layout_height="79dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/monta3"
+                        card_view:ignore="ContentDescription" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Montallantas 3 "
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="12dp"
+                            android:textStyle="italic"
+                            card_view:ignore="HardcodedText,SpUsage" />
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-condensed"
+                            android:text="Barrios cercanos: los eliseos, el madrigal, lorenzo rincon colonial tejar 1 etapa"
+                            android:textColor="#34389e"
+                            card_view:ignore="HardcodedText,UnusedAttribute" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                app:cardBackgroundColor="#FAFAFA">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView95"
+                        android:layout_width="148dp"
+                        android:layout_height="79dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/monta4"
+                        card_view:ignore="ContentDescription" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Montallantas 4 "
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="12dp"
+                            android:textStyle="italic"
+                            card_view:ignore="HardcodedText,SpUsage" />
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-condensed"
+                            android:text="Barrios cercanos: sector parque bolivar, barrio javeriano, batallon boyaca, alkosto bolivar"
+                            android:textColor="#34389e"
+                            card_view:ignore="HardcodedText,UnusedAttribute" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                app:cardBackgroundColor="#FAFAFA">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView30"
+                        android:layout_width="148dp"
+                        android:layout_height="79dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/monta5"
+                        card_view:ignore="ContentDescription" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Montallantas 5 "
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="12dp"
+                            android:textStyle="italic"
+                            card_view:ignore="HardcodedText,SpUsage" />
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-condensed"
+                            android:text="Barrios cercanos: sector de conjuntos de aquine, mercado los dos puentes, av santander, sector bomberos "
+                            android:textColor="#34389e"
+                            card_view:ignore="HardcodedText,UnusedAttribute" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                app:cardBackgroundColor="#FAFAFA">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView28"
+                        android:layout_width="148dp"
+                        android:layout_height="79dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/monta6"
+                        card_view:ignore="ContentDescription" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Montallantas 6 "
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="12dp"
+                            android:textStyle="italic"
+                            card_view:ignore="HardcodedText,SpUsage" />
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-condensed"
+                            android:text="Barrios cercanos: av las americas, atahualpa, av boyaca, edif andino, llaves zamudio"
+                            android:textColor="#34389e"
+                            card_view:ignore="HardcodedText,UnusedAttribute" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                app:cardBackgroundColor="#FAFAFA">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="79dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/monta7"
+                        card_view:ignore="ContentDescription" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Montallantas 7 "
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="12dp"
+                            android:textStyle="italic"
+                            card_view:ignore="HardcodedText,SpUsage" />
+
+                        <TextView
+                            android:id="@+id/textView15"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-condensed"
+                            android:text="Barrios cercanos: sector atahualpa,av panamericana, ferreteria syrgo, colegio libertad, sector niza"
+                            android:textColor="#34389e"
+                            card_view:ignore="HardcodedText,UnusedAttribute" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

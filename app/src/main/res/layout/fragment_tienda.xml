@@ -1,0 +1,307 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bicifondo"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="197dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/ft"
+        card_view:ignore="ContentDescription" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            card_view:ignore="ObsoleteLayoutParam,ScrollViewSize">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                app:cardBackgroundColor="#fafafa"
+                card_view:cardCornerRadius="4dp"
+                card_view:cardElevation="5dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="79dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/mania"
+                        card_view:ignore="ContentDescription" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Nombre: Bici Mania"
+                            android:textColor="#34389e"
+                            android:textSize="12dp"
+                            android:textStyle="italic"
+                            card_view:ignore="HardcodedText,SpUsage" />
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-condensed"
+                            android:text="Direccion: cll 16 #27-59"
+                            android:textColor="#34389e"
+                            card_view:ignore="HardcodedText,UnusedAttribute" />
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-condensed"
+                            android:text="Telefono:3154678393 "
+                            android:textColor="#34389e"
+                            card_view:ignore="HardcodedText,UnusedAttribute" />
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Puntacion: 4.6"
+                            android:textColor="#34389e"
+                            android:textStyle="italic"
+                            card_view:ignore="HardcodedText" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                app:cardBackgroundColor="#FAFAFA">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="147dp"
+                        android:layout_height="79dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/tb2"
+                        card_view:ignore="ContentDescription" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Nombre:Ciclyng y sport"
+                            android:textColor="#34389e"
+                            android:textSize="12dp"
+                            android:textStyle="italic"
+                            card_view:ignore="HardcodedText,SpUsage" />
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-condensed"
+                            android:text="Direccion: av estudiante #40-52"
+                            android:textColor="#34389e"
+                            card_view:ignore="HardcodedText,UnusedAttribute" />
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-condensed"
+                            android:text="Telefono: 7208494"
+                            android:textColor="#34389e"
+                            card_view:ignore="HardcodedText,UnusedAttribute" />
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Puntuacion: 5.0"
+                            android:textColor="#34389e"
+                            android:textStyle="italic"
+                            card_view:ignore="HardcodedText" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                app:cardBackgroundColor="#FAFAFA">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="148dp"
+                        android:layout_height="79dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/pinarelo"
+                        card_view:ignore="ContentDescription" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Nombre : ciclo pinarelo"
+                            android:textColor="#34389e"
+                            android:textSize="12dp"
+                            android:textStyle="italic"
+                            card_view:ignore="HardcodedText,SpUsage" />
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-condensed"
+                            android:text="Direccion: crr 4a #42 las lunas "
+                            android:textColor="#34389e"
+                            card_view:ignore="HardcodedText,UnusedAttribute" />
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-condensed"
+                            android:text="Puntuacion: 5.0 "
+                            android:textColor="#34389e"
+                            card_view:ignore="HardcodedText,UnusedAttribute" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                app:cardBackgroundColor="#FAFAFA">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="79dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/spec"
+                        card_view:ignore="ContentDescription" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView13"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Nombre: specialized pasto"
+                            android:textColor="#34389e"
+                            android:textSize="12dp"
+                            android:textStyle="italic"
+                            card_view:ignore="HardcodedText,SpUsage" />
+
+                        <TextView
+                            android:id="@+id/textView15"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-condensed"
+                            android:text="Direccion: av panamericana cr 41# 19-56"
+                            android:textColor="#34389e"
+                            card_view:ignore="HardcodedText,UnusedAttribute" />
+
+                        <TextView
+                            android:id="@+id/textView16"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-condensed"
+                            android:text="Telefono: 7317122"
+                            android:textColor="#34389e"
+                            card_view:ignore="HardcodedText,UnusedAttribute" />
+
+                        <TextView
+                            android:id="@+id/textView14"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Puntuacion: 4.5"
+                            android:textColor="#34389e"
+                            android:textStyle="italic"
+                            card_view:ignore="HardcodedText" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

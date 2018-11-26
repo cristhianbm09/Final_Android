@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/casa"
+            android:textColor="@color/design_default_color_primary_dark"
+            android:title="inicio"
+            tools:ignore="HardcodedText" />
+        <item
+            android:id="@+id/despinchar"
+            android:icon="@drawable/bici"
+            android:title="Donde Despincharte"
+            android:textColor="@android:color/holo_red_dark"
+            tools:ignore="HardcodedText" />
+        <item
+            android:id="@+id/tienda"
+            android:icon="@drawable/tienda"
+            android:title="Tiendas y accesorios"
+            tools:ignore="HardcodedText" />
+        <item
+            android:id="@+id/acerca"
+            android:icon="@drawable/acerca"
+            android:title="Acerca de"
+            tools:ignore="HardcodedText" />
+    </group>
+
+
+
+</menu>
